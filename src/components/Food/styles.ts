@@ -8,7 +8,6 @@ export const Container = styled.div<ContainerProps>`
   background: #f0f0f5;
   border-radius: 8px;
 
-
   header {
     background: #ffb84d;
     border-radius: 8px 8px 0px 0px;
@@ -39,7 +38,7 @@ export const Container = styled.div<ContainerProps>`
 
     p {
       color: #3d3d4d;
-
+      height: 50px;
       margin-top: 16px;
     }
 

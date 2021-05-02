@@ -1,16 +1,23 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   background: #c72828;
   padding: 30px 0;
+  min-width: 360px;
 
   header {
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 0 160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    img {
+      @media (max-width: 740px) {
+        width: 60.99999%;
+   }
+    }
 
     nav {
       div {
@@ -27,6 +34,10 @@ export const Container = styled.div`
 
           .text {
             padding: 16px 24px;
+
+            @media (max-width: 518px) {
+              display: none;
+            }
           }
 
           .icon {
